@@ -15,7 +15,7 @@ const AddTodo = () => {
         <div>
             <form onSubmit={handleTodo}>
                 <input className="p-2 outline-none border" type="text" name="text" id="text" placeholder="add todo" value={todo} onChange={(e)=> setTodo(e.target.value)} />
-                <button className="p-2 bg-green-400" type="submit">Submit</button>
+                <button className="p-2 bg-violet-600 text-white font-bold" type="submit">Submit</button>
             </form>
         </div>
     );
